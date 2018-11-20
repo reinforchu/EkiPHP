@@ -44,7 +44,7 @@ for ($i = 0; $i < 6; $i++) {
 		++$ext;
 	}
 
-	// Replace yo
+	// 陰陽
  	if ($eki[$i]['inyo'] == '6') { $eki[$i]['inyo'] = '老陽'; }
 	if ($eki[$i]['inyo'] == '7') { $eki[$i]['inyo'] = '少陰'; }
 	if ($eki[$i]['inyo'] == '8') { $eki[$i]['inyo'] = '少陽'; }
@@ -99,14 +99,14 @@ $ka64[] = ka64($hakkei[0] . $hakkei[1]);
 $ka64[] = ka64($hakkei[4] . $hakkei[5]);
 
 function ka8($ka) {
-	if (EKI_ROYO . EKI_ROYO . EKI_ROYO === $ka) { return "天"; }
-	if (EKI_ROYO . EKI_ROYO . EKI_SHOIN === $ka) { return "風"; }
-	if (EKI_ROYO . EKI_SHOIN . EKI_ROYO === $ka) { return "火"; }
-	if (EKI_ROYO . EKI_SHOIN . EKI_SHOIN === $ka) { return "山"; }
-	if (EKI_SHOIN . EKI_ROYO . EKI_ROYO === $ka) { return "沢"; }
-	if (EKI_SHOIN . EKI_ROYO . EKI_SHOIN === $ka) { return "水"; }
-	if (EKI_SHOIN . EKI_SHOIN . EKI_ROYO === $ka) { return "雷"; }
-	if (EKI_SHOIN . EKI_SHOIN . EKI_SHOIN === $ka) { return "地"; }
+	if (EKI_ROYO . EKI_ROYO . EKI_ROYO === $ka) { return "乾"; }
+	if (EKI_ROYO . EKI_ROYO . EKI_SHOIN === $ka) { return "巽"; }
+	if (EKI_ROYO . EKI_SHOIN . EKI_ROYO === $ka) { return "離"; }
+	if (EKI_ROYO . EKI_SHOIN . EKI_SHOIN === $ka) { return "艮"; }
+	if (EKI_SHOIN . EKI_ROYO . EKI_ROYO === $ka) { return "兌"; }
+	if (EKI_SHOIN . EKI_ROYO . EKI_SHOIN === $ka) { return "坎"; }
+	if (EKI_SHOIN . EKI_SHOIN . EKI_ROYO === $ka) { return "震"; }
+	if (EKI_SHOIN . EKI_SHOIN . EKI_SHOIN === $ka) { return "坤"; }
 	return 0;
 }
 

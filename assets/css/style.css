@@ -1,7 +1,14 @@
 @charset "UTF-8";
 
+html, body {
+    background-color: #f3f3f2;
+    color: #17184b;
+    margin: 0 auto;
+    padding: 2px;
+}
+
 table {
-    width: 480px;
+    width: 500px;
     border: 2px #2b2b2b solid;
 }
 
@@ -10,7 +17,10 @@ td {
     border: 2px #2b2b2b solid;
 }
 button {
+    color: #274a78;
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 20px;
+    border-radius: 5px;
+    background: #e5e4e6 none repeat scroll 0 0;
 }

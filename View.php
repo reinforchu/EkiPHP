@@ -10,7 +10,9 @@
         <meta name="description" content="PHPで擲銭法の易占いをします">
         <meta name="keywords" content="易占い,php">
 		<meta name="author" content="reinforchu">
-        <title>PHPによる易占い（疑似擲銭法）</title>
+		<title>PHPによる易占い（疑似擲銭法）</title>
+		<link rel="shortcut icon" href="./assets/icon/favicon.ico">
+        <link rel="icon" type="image/gif" href="./assets/icon/animated_favicon1.gif">
 		<link rel="stylesheet" href="./assets/css/style.css">
 		<script type="text/javascript" src="./assets/script/common.js"></script>
     </head>
