@@ -19,7 +19,7 @@
     <body>
 		<h2>PHPによる易占い(擲銭法) - 中筮法/六変筮法</h2>
 		<div id="reset">
-			<button type="submmit" onClick="location.href='./';">もう一度占う</button>
+			<button type="submmit" onClick="if(confirm('もう一度占いますか？')){location.href='./';}">もう一度占う</button>
 		</div>
 		<div id="coin">
 			<form action="./?s" method="get">
